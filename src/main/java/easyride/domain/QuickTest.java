@@ -15,7 +15,7 @@ public class QuickTest {
         System.out.println("Customer Remaining Balance: " + customer.getWalletBalance());
 
         // ৩. ড্রাইভার এবং ট্রিপ শেষে লোকেশন আপডেট চেক
-        Driver driver = new Driver("D1", "Karim", "01800000000", Money.zeroBdt(), VehicleType.CAR, "DHAKA-11-2233", gulshan, true, 5.0, 0);
+        Driver driver = new Driver("D1", "Kanzud", "01800000000", Money.zeroBdt(), VehicleType.CAR, "DHAKA-11-2233", gulshan, true, 5.0, 0);
         driver.recordTripCompletion(4.8, dhanmondi);
         System.out.println("Driver New Location: " + driver.getCurrentLocation());
         System.out.println("Driver New Rating: " + driver.getRating());
